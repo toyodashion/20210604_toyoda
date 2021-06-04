@@ -27,3 +27,29 @@
 }
 
 // スマホサイズ
+@media screen and (max-width: 480px) {
+  .firstview {
+    height: 600px;
+    width: 100%;
+    background: url(img/firstview-sp.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+  }
+  .firstview__text {
+    z-index: 0.5;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+  }
+  .topics {
+    flex-direction: column;
+  }
+  .topic {
+    margin-top: -5px;
+  }
+}
